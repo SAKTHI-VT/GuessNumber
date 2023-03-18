@@ -95,7 +95,7 @@
   {
     background: white;
     border: 2px solid black;
-    color: inherit;
+    /* color: inherit; */
     font-size: 25px;
     padding: 3% 3%;
     width: 150px;
