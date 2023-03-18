@@ -17,7 +17,7 @@
   {
     position: relative;
     height: 35vh;
-    border-bottom: 7px solid lightcoral;
+    border-bottom: 10px solid lightcoral;
   }
   h1
   {
@@ -25,7 +25,7 @@
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 20%;
+    top: 30%;
     transform: translate(-50% -50%);
   }
   .range
@@ -33,36 +33,36 @@
     margin-top: 5%;
     font-size: 25px;
     position: absolute;
-    top: 2%;
-    right: 2rem;
+    top: 10%;
+    right: 5rem;
   }
   .btn
   {
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 13%;
+    margin-left: 3%;
     border: 2px solid black;
     background-color: white;
     color: black;
-    font-size: 80%;
-    padding: 15px 15px;
+    font-size: 100%;
+    padding: 20px 20px;
     cursor: pointer;
   }
   .btn:hover
   {
-    background-color: aqua;
+    background-color: lightyellow;
   }
   .check
   {
     border: 2px solid black;
     background-color: white;
     color: black;
-    font-size: 80%;
-    padding: 10px 10px;
+    font-size: 100%;
+    padding: 15px 15px;
     cursor: pointer;
   }
   main
   {
-    height: 280px;
+    height: 350px;
     color: black;
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@
   }
   .left
   {
-    width: 150%;
+    width: 200%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,33 +83,33 @@
   {
     background: white;
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     width: 150px;
-    padding: 8px 8px;
+    padding: 10px 10px;
     text-align: center;
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%,50%);
   }
   .guess
   {
     background: white;
-    border: 4px solid black;
+    border: 2px solid black;
     color: inherit;
-    font-size: 12px;
-    padding: 2% 2%;
-    width: 120px;
+    font-size: 25px;
+    padding: 3% 3%;
+    width: 150px;
     text-align: center;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .msg
   {
-    margin-bottom: 2%;
-    height: 4%;
+    margin-bottom: 10%;
+    height: 5%;
   }
   .score
   {
-    margin-bottom: 2%;
+    margin-bottom: 10%;
   }
