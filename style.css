@@ -10,7 +10,6 @@
   }
   body
   {
-    /* background-color: lightsteelblue; */
     background-image: url(img.jpg);
     background-size: 100%;
     background-repeat: none;
@@ -31,11 +30,6 @@
     top: 30%;
     transform: translate(-50% -50%);
   }
-  /* input
-  {
-    background-color: aliceblue;
-    border: 5px solid red;
-  } */
   .range
   {
     margin-top: 5%;
@@ -56,10 +50,6 @@
     padding: 20px 20px;
     cursor: pointer;
   }
-  /* .btn:hover
-  {
-    background-color: lightblue;
-  } */
   .check
   {
     /* border: 4px solid red; */
@@ -85,11 +75,11 @@
     flex-direction: column;
     align-items: center;
   }
-  .right {
+  .right
+  {
     width: 80%;
     font-size: 45px;
   }
-
   .number
   {
     background: white;
@@ -107,7 +97,7 @@
   {
     background: white;
     border: 2px solid black;
-    /* color: inherit; */
+    color: inherit;
     font-size: 25px;
     padding: 3% 3%;
     width: 150px;
